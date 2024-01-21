@@ -1,0 +1,165 @@
+.text-colored,
+.navbar-brand:hover,
+.nav-link:hover{
+    color: rgb(218, 129, 28);
+}
+
+.section-title{
+    font-family: 'Dancing Script', cursive;
+}
+
+body{
+    font-family: 'Livvic', sans-serif;
+}
+
+
+.navbar{
+    background-color: #bfe339;
+}
+
+.navbar-brand,
+.nav-link,
+#fale-conosco button{
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navbar-brand:hover,
+.nav-link:hover,
+#fale-conosco button:hover{
+    transform: scale(1.1);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: rgb(218, 129, 28);
+    color: #bfe339;
+}
+
+.carousel-item img{
+    width: 100%;
+}
+
+#spacing{
+    margin: 2% 0;
+}
+
+#catalogo{
+    background-color: #dcee9b;
+}
+
+.nav-catalogo .nav-link.active,
+#fale-conosco button{
+    background-color: #bfe339;
+    color: #fff;
+}
+
+.tab-pane img{
+    max-height: 180px;
+    max-width: 170px;
+    border-radius: 8px;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+label.error {
+    color: red;
+    font-size: 14px;
+}
+
+.error input,
+.error textarea {
+    border: 1px solid red;
+}
+
+.sucesso {
+    display: none;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 0;
+    margin: 8px 0;
+    text-align: center;
+}
+
+.erro {
+    display: none;
+    background-color: #ff2020;
+    color: #fff;
+    padding: 10px 2px;
+    margin: 8px 0;
+    text-align: center;
+}
+
+#mensagem{
+    resize: none;
+    height: 120px;
+}
+
+#fale-conosco .row .col-md-7 .row{
+    align-items: center;
+}
+
+@media (max-width: 767px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .tab-content{
+        margin-top: 4%;
+    }
+
+    .tab-pane .row{
+        width: 100%;
+        text-align: center;
+    }
+
+    .tab-pane.active{
+        margin-left: 5%;
+    }
+
+    .tab-pane img{
+        max-height: 460px;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
+    .social-links i{
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    #sobre{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    aside{
+        padding: 0;
+        font-size: 1em;
+    }
+
+    #catalogo .col-md-10{
+        padding: 0;
+    }
+
+    #catalogo .col-md-10 .row{
+        margin-left: 5%;
+    }
+
+    #catalogo .col-md-10 .row h5{
+        font-size: 1em;
+    }
+    
+    #catalogo .col-md-10 .row p{
+        font-size: 0.9em;
+    }
+
+}
