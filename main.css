@@ -1,6 +1,7 @@
 .text-colored,
 .navbar-brand:hover,
-.nav-link:hover{
+.nav-link:hover,
+.nav-link:focus{
     color: rgb(218, 129, 28);
 }
 
